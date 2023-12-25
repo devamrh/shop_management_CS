@@ -1,0 +1,1 @@
+﻿insert into products(productName,price,quantity,brand,warranty,originalprice) values('dasda',500,5,'bat',1,500)
