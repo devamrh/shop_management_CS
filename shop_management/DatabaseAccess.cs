@@ -164,13 +164,14 @@ namespace shop_management
                     {
                         if (reader.Read())
                         {
-                            // Assigning values to the properties
+                            
                             Name = reader["productName"].ToString();
                             Price = (double)Convert.ToDecimal(reader["price"]);
                             Quantity = Convert.ToInt32(reader["quantity"]);
                             Brand = reader["brand"].ToString();
                             Warranty = reader["warranty"].ToString();
-                            OriginalPrice = Convert.ToSingle(reader["originalPrice"]);
+                            OriginalPrice = (int)Convert.ToDouble(reader["originalPrice"]);
+                            
                         }
                         else
                         {

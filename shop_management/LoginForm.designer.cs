@@ -71,7 +71,7 @@
             // 
             this.p1.AutoSize = true;
             this.p1.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p1.Location = new System.Drawing.Point(221, 191);
+            this.p1.Location = new System.Drawing.Point(221, 190);
             this.p1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.p1.Name = "p1";
             this.p1.Size = new System.Drawing.Size(111, 23);
@@ -81,10 +81,10 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(244, 288);
+            this.button1.Location = new System.Drawing.Point(225, 326);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(93, 38);
+            this.button1.Size = new System.Drawing.Size(123, 38);
             this.button1.TabIndex = 2;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = true;
@@ -92,10 +92,10 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(407, 288);
+            this.button3.Location = new System.Drawing.Point(400, 326);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 38);
+            this.button3.Size = new System.Drawing.Size(130, 38);
             this.button3.TabIndex = 3;
             this.button3.Text = "Exit";
             this.button3.UseVisualStyleBackColor = true;
@@ -104,7 +104,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::shop_management.Properties.Resources.rsz_2echo_login_icon;
-            this.pictureBox1.Location = new System.Drawing.Point(16, 76);
+            this.pictureBox1.Location = new System.Drawing.Point(31, 87);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(140, 143);
@@ -116,7 +116,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(541, 367);
+            this.ClientSize = new System.Drawing.Size(582, 453);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
@@ -126,7 +126,8 @@
             this.Controls.Add(this.textbox1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "LoginForm";
-            this.Text = "Login";
+            this.Text = "Shop Management System";
+            this.Load += new System.EventHandler(this.LoginForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

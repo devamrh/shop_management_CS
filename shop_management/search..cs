@@ -37,7 +37,7 @@ namespace shop_management
                             ProductQuantity = Convert.ToInt32(reader["quantity"]);
                             ProductBrand = reader["brand"].ToString();
                             ProductWarranty = reader["warranty"].ToString();
-                            // ProductOriginalPrice = Convert.ToInt32(reader["originalPrice"]);
+                            ProductOriginalPrice = Convert.ToInt32(reader["originalPrice"]);
                         }
                         else
                         {
