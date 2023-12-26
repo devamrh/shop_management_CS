@@ -214,9 +214,7 @@ namespace shop_management
                     }
                     else
                     {
-                        // Handle the case when the product with the specified Id is not found
-                        // You can add your error handling logic here
-                        // For example, throw an exception or log a message
+                        
                     }
                 }
             }
